@@ -3,6 +3,8 @@
     
 ![Index app](../doc/assets/CRUD_Bucket_s3.drawio.png)
 
+</div> 
+
 <div align="right">
   <img width="25" height="25" src="../doc/assets/icons/devops/png/aws.png" />
   <img width="25" height="25" src="../doc/assets/icons/aws/png/lambda.png" />
@@ -39,7 +41,7 @@
 
 Modelo CRUD para el manejo de objetos implementado con Systems Manager Parameter Store, Bucket S3, Api-Gateway, Serverless-Framework, Lambda, NodeJs, aws-sdk-v3, entre otros. Los servicios de aws se implementan en local. El código del proyecto y la documentación de este (menos doc técnica), ha sido desarrollado/a en inglés.
 
-*   [Playlist prueba de funcionalidad](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
+*   [Playlist prueba de funcionalidad](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)<img src="../doc/assets/social-networks/yt.png" width="3%" height="3%" />
 
  <br>
  
@@ -267,32 +269,32 @@ npm start
   <summary>Ver</summary>
  <br>
 
-| **Tecnologías** | **Versión** | **Finalidad** |\
-| ------------- | ------------- | ------------- |
-| [SDK](https://www.serverless.com/framework/docs/guides/sdk/) | 4.3.2  | Inyección Automática de Módulos para Lambdas |
+| Tecnología | Versión | Finalidad |
+|------------|---------|-----------|
+| [SDK](https://www.serverless.com/framework/docs/guides/sdk/) | 4.3.2 | Inyección Automática de Módulos para Lambdas |
 | [Serverless Framework Core v3](https://www.serverless.com//blog/serverless-framework-v3-is-live) | 3.23.0 | Core Servicios AWS |
 | [Systems Manager Parameter Store (SSM)](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) | 3.0 | Manejo de Variables de Entorno |
 | [Amazon Api Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html) | 2.0 | Gestor, Autenticación, Control y Procesamiento de la Api |
 | [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) | 3.0 | Contenedor de Objetos |
-| [NodeJS](https://nodejs.org/en/) | 14.18.1  | Librería JS |
-| [VSC](https://code.visualstudio.com/docs) | 1.72.2  | IDE |
-| [Postman](https://www.postman.com/downloads/) | 10.11  | Cliente Http |
-| [CMD](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd) | 10 | Símbolo del Sistema para linea de comandos |
-| [Git](https://git-scm.com/downloads) | 2.29.1  | Control de Versiones |
+| [NodeJS](https://nodejs.org/en/) | 14.18.1 | Librería JS |
+| [VSC](https://code.visualstudio.com/docs) | 1.72.2 | IDE |
+| [Postman](https://www.postman.com/downloads/) | 10.11 | Cliente Http |
+| [CMD](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd) | 10 | Símbolo del Sistema para línea de comandos |
+| [Git](https://git-scm.com/downloads) | 2.29.1 | Control de Versiones |
 
-</br>
+### Plugins
 
-| **Plugin** | **Descripción** |\
-| -------------  | ------------- |
+| Plugin | Descripción |
+|--------|-------------|
 | [Serverless Plugin](https://www.serverless.com/plugins/) | Librerías para la Definición Modular |
 | [serverless-offline](https://www.npmjs.com/package/serverless-offline) | Este complemento sin servidor emula AWS λ y API Gateway en entorno local |
-| [serverless-offline-ssm](https://www.npmjs.com/package/serverless-offline-ssm) |  busca variables de entorno que cumplen los parámetros de SSM en el momento de la compilación y las sustituye desde un archivo  |
-| [serverless-s3-local](https://www.serverless.com/plugins/serverless-s3-local) | complemento sin servidor para ejecutar clones de S3 en local
+| [serverless-offline-ssm](https://www.npmjs.com/package/serverless-offline-ssm) | Busca variables de entorno que cumplen los parámetros de SSM en el momento de la compilación y las sustituye desde un archivo |
+| [serverless-s3-local](https://www.serverless.com/plugins/serverless-s3-local) | Complemento sin servidor para ejecutar clones de S3 en local |
 
-</br>
+### Extensiones
 
-| **Extensión** |\
-| -------------  |
+| Extensión |
+|-----------|
 | Prettier - Code formatter |
 | YAML - Autoformatter .yml (alt+shift+f) |
 
@@ -312,11 +314,11 @@ npm start
 
 ### 2.1.0) Variables en Postman
 
-| **Variable** | **Initial value** | **Current value** |\
-| ------------- | ------------- | ------------- |
-| base\_url | http://localhost:4000  | http://localhost:4000 |
-| x-api-key | f98d8cd98h73s204e3456998ecl9427j  | f98d8cd98h73s204e3456998ecl9427j |
-| bearer\_token | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV\_adQssw5c  | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV\_adQssw5c |
+| Variable | Valor Inicial | Valor Actual |
+|----------|---------------|--------------|
+| base_url | http://localhost:4000 | http://localhost:4000 |
+| x-api-key | f98d8cd98h73s204e3456998ecl9427j | f98d8cd98h73s204e3456998ecl9427j |
+| bearer_token | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c |
 
 <br>
 
@@ -357,7 +359,7 @@ curl --location 'http://localhost:4000/dev/upload-object' \
 
 <br>
 
-### 2.1.2) Obtener un objeto del bucket según su uuuid
+### 2.1.2) Obtener un objeto del bucket según su uuid
 
 #### Request | Code snippet
 
@@ -400,9 +402,8 @@ curl --location --request PUT 'http://localhost:4000/dev/edit-object/104851112' 
     "type":"image",
     "format":"jpg",
     "description":"1200 × 1201 png",
-    "url":"https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&  mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0"
+    "url":"https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0"
 }'
-
 ```
 
 #### Response
@@ -413,7 +414,7 @@ curl --location --request PUT 'http://localhost:4000/dev/edit-object/104851112' 
         "type": "image",
         "format": "jpg",
         "description": "1200 × 1201 png",
-        "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&  mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
+        "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
         "uuid": 104851112
     }
 }
