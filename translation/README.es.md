@@ -3,7 +3,19 @@
     
 ![Index app](../doc/assets/CRUD_Bucket_s3.drawio.png)
 
-</div>
+<div align="right">
+  <img width="25" height="25" src="../doc/assets/icons/devops/png/aws.png" />
+  <img width="25" height="25" src="../doc/assets/icons/aws/png/lambda.png" />
+  <img width="27" height="27" src="../doc/assets/icons/devops/png/postman.png" />
+  <img width="29" height="27" src="../doc/assets/icons/devops/png/git.png" />
+  <img width="25" height="25" src="../doc/assets/icons/aws/png/s3.png" />
+  <img width="28" height="27" src="../doc/assets/icons/aws/png/api-gateway.png" />
+  <img width="27" height="25" src="../doc/assets/icons/aws/png/parameter-store.png" />
+  <img width="27" height="27" src="../doc/assets/icons/backend/javascript-typescript/png/nodejs.png" />
+
+</div> 
+
+<br>
 
 <br>
 
@@ -19,7 +31,7 @@
 
 <div align="center">
 
-# CRUD\_Bucket\_S3\_AWS
+# CRUD Bucket S3 AWS
 
 </div>
 
