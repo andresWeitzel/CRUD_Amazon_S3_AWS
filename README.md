@@ -2,6 +2,8 @@
  
 ![Index app](./doc/assets/CRUD_Bucket_s3.drawio.png)
 
+</div>
+
 <div align="right">
   <img width="25" height="25" src="./doc/assets/icons/devops/png/aws.png" />
   <img width="25" height="25" src="./doc/assets/icons/aws/png/lambda.png" />
@@ -38,7 +40,7 @@
 
 CRUD model for object handling implemented with Systems Manager Parameter Store, S3 Bucket, Api-Gateway, Serverless-Framework, Lambda, NodeJs, aws-sdk-v3, among others others. AWS services are deployed locally. The project code and documentation (except technical docs) have been developed in English.
 
-* [Functionality test playlist](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
+* [Functionality test playlist](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)<a href="https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW" target="_blank"> <img src="./doc/assets/social-networks/yt.png" width="3%" height="3%" />
 
 <br>
 
@@ -266,8 +268,8 @@ npm start
 <summary>View</summary>
 <br>
 
-| **Technologies** | **Version** | **Purpose** |\
-| ------------- | ------------- | ------------- |
+| Technology | Version | Purpose |
+|------------|---------|---------|
 | [SDK](https://www.serverless.com/framework/docs/guides/sdk/) | 4.3.2 | Automatic Module Injection for Lambdas |
 | [Serverless Framework Core v3](https://www.serverless.com//blog/serverless-framework-v3-is-live) | 3.23.0 | AWS Core Services |
 | [Systems Manager Parameter Store (SSM)](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) | 3.0 | Management of Environment Variables |
@@ -279,19 +281,19 @@ npm start
 | [CMD](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd) | 10 | Command Prompt |
 | [Git](https://git-scm.com/downloads) | 2.29.1 | Version Control |
 
-</br>
+### Plugins
 
-| **Plugin** | **Description** |\
-| ------------- | ------------- |
+| Plugin | Description |
+|--------|-------------|
 | [Serverless Plugin](https://www.serverless.com/plugins/) | Libraries for Modular Definition |
 | [serverless-offline](https://www.npmjs.com/package/serverless-offline) | This serverless plugin emulates AWS λ and API Gateway on-premises |
-| [serverless-offline-ssm](https://www.npmjs.com/package/serverless-offline-ssm) | finds environment variables that match SSM parameters at build time and replaces them from a file |
-| [serverless-s3-local](https://www.serverless.com/plugins/serverless-s3-local) | serverless plugin to run S3 clones locally
+| [serverless-offline-ssm](https://www.npmjs.com/package/serverless-offline-ssm) | Finds environment variables that match SSM parameters at build time and replaces them from a file |
+| [serverless-s3-local](https://www.serverless.com/plugins/serverless-s3-local) | Serverless plugin to run S3 clones locally |
 
-</br>
+### Extensions
 
-| **Extension** |\
-| ------------- |
+| Extension |
+|-----------|
 | Prettier - Code formatter |
 | YAML - Autoformatter .yml (alt+shift+f) |
 
@@ -311,11 +313,11 @@ npm start
 
 ### 2.1.0) Variables in Postman
 
-| **Variable** | **Initial value** | **Current value** |\
-| ------------- | ------------- | ------------- |
-| base\_url | http://localhost:4000 | http://localhost:4000 |
+| Variable | Initial Value | Current Value |
+|----------|---------------|---------------|
+| base_url | http://localhost:4000 | http://localhost:4000 |
 | x-api-key | f98d8cd98h73s204e3456998ecl9427j | f98d8cd98h73s204e3456998ecl9427j |
-| bearer\_token | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikpva G4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV\_adQssw5c | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikpva G4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV\_adQssw5c |
+| bearer_token | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c |
 
 <br>
 
@@ -323,32 +325,32 @@ npm start
 
 ### 2.1.1) Upload an object to the s3 bucket
 
-#### Request | code snippet
+#### Request | Code snippet
 
-``postman
+```postman
 curl --location 'http://localhost:4000/dev/upload-object' \
 --header 'x-api-key: f98d8cd98h73s204e3456998ecl9427j' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikpva G4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c' \
 --header 'Content-Type: application/json' \
 --data '{
- "type":"image",
- "format":"png",
- "description":"5000 × 3061 png",
- "url":"https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846n eirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f %2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5 000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0"
+    "type":"image",
+    "format":"png",
+    "description":"5000 × 3061 png",
+    "url":"https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0"
 }'
 ```
 
 #### Response
 
-``postman
+```postman
 {
- "message": {
- "type": "image",
- "format": "png",
- "description": "5000 × 3061 png",
- "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846nei rVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a% 2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw= 5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
- "uuid": 104851112
- }
+    "message": {
+        "type": "image",
+        "format": "png",
+        "description": "5000 × 3061 png",
+        "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
+        "uuid": 104851112
+    }
 }
 ```
 
@@ -356,29 +358,29 @@ curl --location 'http://localhost:4000/dev/upload-object' \
 
 <br>
 
-### 2.1.2) Get an object from the bucket based on its uuuid
+### 2.1.2) Get an object from the bucket based on its uuid
 
-#### Request | code snippet
+#### Request | Code snippet
 
-``postman
+```postman
 curl --location 'http://localhost:4000/dev/get-object/103053674' \
 --header 'x-api-key: f98d8cd98h73s204e3456998ecl9427j' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI'
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c' \
 --header 'Content-Type: application/json' \
 --data ''
 ```
 
 #### Response
 
-``postman
+```postman
 {
- "message": {
- "type": "image",
- "format": "jpg",
- "description": "1000 × 1261 png",
- "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846nei rVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a% 2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw= 5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
- "uuid": 103053674
- }
+    "message": {
+        "type": "image",
+        "format": "jpg",
+        "description": "1000 × 1261 png",
+        "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
+        "uuid": 103053674
+    }
 }
 ```
 
@@ -388,33 +390,32 @@ curl --location 'http://localhost:4000/dev/get-object/103053674' \
 
 ### 2.1.3) Update an object in the s3 bucket
 
-#### Request | code snippet
+#### Request | Code snippet
 
-``postman
+```postman
 curl --location --request PUT 'http://localhost:4000/dev/edit-object/104851112' \
 --header 'x-api-key: f98d8cd98h73s204e3456998ecl9427j' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikpva G4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c' \
 --header 'Content-Type: application/json' \
 --data '{
- "type":"image",
- "format":"jpg",
- "description":"1200 × 1201 png",
- "url":"https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi& mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.p ng&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252 f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923 247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0"
+    "type":"image",
+    "format":"jpg",
+    "description":"1200 × 1201 png",
+    "url":"https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0"
 }'
-
 ```
 
 #### Response
 
-``postman
+```postman
 {
- "message": {
- "type": "image",
- "format": "jpg",
- "description": "1200 × 1201 png",
- "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi& mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJ S.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3d Cb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302 923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
- "uuid": 104851112
- }
+    "message": {
+        "type": "image",
+        "format": "jpg",
+        "description": "1200 × 1201 png",
+        "url": "https://www.bing.com/images/search?view=detailV2&ccid=Tf4BFI68&id=D66EF5BFB7DA0A645A70240C32CB8664E8F8BF09&thid=OIP.Tf4BFI6846neirVSebC0vAHaEi&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fNode_logo_NodeJS.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4dfe01148ebce3a9de8ab55279b0b4bc%3frik%3dCb%252f46GSGyzIMJA%26pid%3dImgRaw%26r%3d0&exph=3061&expw=5000&q=jpg+nodejs&simid=608055434302923247&FORM=IRPRST&ck=2FF3D39CAEF945F20B996CF6042F88A6&selectedIndex=1&ajaxhist=0&ajaxserp=0",
+        "uuid": 104851112
+    }
 }
 ```
 
@@ -424,11 +425,11 @@ curl --location --request PUT 'http://localhost:4000/dev/edit-object/104851112' 
 
 ### 2.1.4) Delete an object from the bucket
 
-#### Request | code snippet
+#### Request | Code snippet
 
-``postman
+```postman
 curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851112' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikpva G4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c' \
 --header 'x-api-key: f98d8cd98h73s204e3456998ecl9427j' \
 --header 'Content-Type: application/json'
 ```
@@ -437,17 +438,17 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 
 ```postman
 {
-"message": "Removed object with uuid 104851112 successfully."
+    "message": "Removed object with uuid 104851112 successfully."
 }
 ```
 
 <br>
 
-</ details>
+</details>
 
 <br>
 
-## Section 3) Functionality Testing and References.
+## Section 3) Functionality Testing and References
 
 ### 3.0) Functionality Testing [🔝](#index-)
 
@@ -464,10 +465,10 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 ### 3.1) References [🔝](#index-)
 
 <details>
- <summary>View</summary>
- <br>
+<summary>View</summary>
+<br>
 
-#### Bucket configuration
+#### Bucket Configuration
 
 * [s3-example](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-configuring-buckets.html)
 * [s3-examples official](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-node-examples.html)
@@ -485,7 +486,7 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 * [Best Api-Gateway Practices](https://docs.aws.amazon.com/whitepapers/latest/best-practices-api-gateway-private-apis-integration/rest-api.html)
 * [Api-key creation custom](https://towardsaws.com/protect-your-apis-by-creating-api-keys-using-serverless-framework-fe662ad37447)
 
-#### Bookstores
+#### Libraries
 
 * [Field validation](https://www.npmjs.com/package/node-input-validator)
 
