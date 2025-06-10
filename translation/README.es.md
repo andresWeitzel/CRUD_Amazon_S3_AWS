@@ -30,10 +30,14 @@
   </a> 
 </div>
 
+<br>
+
+<br>
+
 
 <div align="center">
 
-# CRUD Bucket S3 AWS
+# CRUD Bucket S3 AWS ![Status](../doc/assets/icons/badges/status-completed.svg)
 
 </div>
 
@@ -41,7 +45,7 @@
 
 Modelo CRUD para el manejo de objetos implementado con Systems Manager Parameter Store, Bucket S3, Api-Gateway, Serverless-Framework, Lambda, NodeJs, aws-sdk-v3, entre otros. Los servicios de aws se implementan en local. El código del proyecto y la documentación de este (menos doc técnica), ha sido desarrollado/a en inglés.
 
-*   [Playlist prueba de funcionalidad](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)<img src="../doc/assets/social-networks/yt.png" width="3%" height="3%" />
+*   [Playlist prueba de funcionalidad](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW) <img src="../doc/assets/social-networks/yt.png" width="25" />
 
  <br>
  
@@ -459,7 +463,7 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 
 #### Tipos de Operaciones | [Ver](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
 
-![Index app](./doc/assets/pruebaFuncionalBucket.png)
+![Index app](../doc/assets/pruebaFuncionalBucket.png)
 
 </details>
 

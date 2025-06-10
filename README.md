@@ -20,6 +20,7 @@
 
 <br>
 
+
 <div align="right">
  <a href="./translation/README.es.md" target="_blank">
  <img src="./doc/assets/translation/arg-flag.jpg" width="10%" height="10%" />
@@ -29,10 +30,13 @@
  </a>
 </div>
 
+<br>
+
+<br>
 
 <div align="center">
 
-# CRUD Bucket S3 AWS
+# CRUD Bucket S3 AWS ![Status](./doc/assets/icons/badges/status-completed.svg)
 
 </div>
 
@@ -40,7 +44,7 @@
 
 CRUD model for object handling implemented with Systems Manager Parameter Store, S3 Bucket, Api-Gateway, Serverless-Framework, Lambda, NodeJs, aws-sdk-v3, among others others. AWS services are deployed locally. The project code and documentation (except technical docs) have been developed in English.
 
-* [Functionality test playlist](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)<a href="https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW" target="_blank"> <img src="./doc/assets/social-networks/yt.png" width="3%" height="3%" />
+* [Functionality test playlist](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)<a href="https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW" target="_blank"> <img src="./doc/assets/social-networks/yt.png" width="25" />
 
 <br>
 
@@ -458,7 +462,7 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 
 #### Types of Operations | [Watch](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
 
-![Index app](./doc/assets/functionalBuckettest.png)
+![Index app](./doc/assets/pruebaFuncionalBucket.png)
 
 </details>
 
