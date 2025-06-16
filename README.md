@@ -130,13 +130,11 @@ git clone https://github.com/andresWeitzel/CRUD_Bucket_S3_AWS
 cd 'projectName'
 ```
 
-* We install the latest LTS version of [Nodejs(v18)](https://nodejs.org/en/download)
-* We install Serverless Framework globally if we have not done so already
-
+* We install the LTS version of [Nodejs(v18)](https://nodejs.org/en/download)
+* We install the Serverless Framework globally if we haven't already. I recommend version three since it's free and doesn't ask for credentials. The latest version (four) can be used without any problems, although it requires a paid version.
 ```git
-npm install -g serverless
+npm install -g serverless@3
 ```
-
 * We check the installed version of Serverless
 
 ```git
@@ -166,10 +164,12 @@ npm i
 npm start
 ```
 
-* If a message appears indicating that port 4000 is already in use, we can terminate all dependent processes and re-run the app
-
+* If we get a message indicating that port 9324 is already in use, we can terminate all dependent processes.
 ```git
-npx kill-port 4000
+npx kill-port 9324
+```
+* We launch the app from terminal.
+```git
 npm start
 ```
 
@@ -189,9 +189,8 @@ npm start
 cd 'projectName'
 ```
 
-* We install the latest LTS version of [Nodejs(v18)](https://nodejs.org/en/download)
+* We install the LTS version of [Nodejs(v18)](https://nodejs.org/en/download)
 * We install the Serverless Framework globally if we haven't already. I recommend version three since it's free and doesn't ask for credentials. The latest version (four) can be used without any problems, although it requires a paid version.
-
 ```git
 npm install -g serverless@3
 ```
@@ -255,10 +254,12 @@ npm i serverless-offline-ssm --save-dev
 npm start
 ```
 
-* If any message appears indicating that the port 4000 is already in use, we can kill all dependent processes and re-run the app
-
+* If we get a message indicating that port 9324 is already in use, we can terminate all dependent processes.
 ```git
-npx kill-port 4000
+npx kill-port 9324
+```
+* We launch the app from terminal.
+```git
 npm start
 ```
 
