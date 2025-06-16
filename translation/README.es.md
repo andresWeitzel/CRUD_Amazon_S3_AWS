@@ -465,9 +465,11 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
   <summary>Ver</summary>
 <br>
 
-#### Tipos de Operaciones | [Ver](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
+#### [Ver video](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
 
-![Index app](../doc/assets/pruebaFuncionalBucket.png)
+  <a href="https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW">
+    <img src="../doc/assets/pruebaFuncionalBucket.png" />
+  </a> 
 
 </details>
 
