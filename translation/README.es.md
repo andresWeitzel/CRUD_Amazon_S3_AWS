@@ -131,7 +131,7 @@ git clone https://github.com/andresWeitzel/CRUD_Bucket_S3_AWS
 cd 'projectName'
 ```
 
-*   Instalamos la última versión LTS de [Nodejs(v18)](https://nodejs.org/en/download)
+*   Instalamos la versión LTS de [Nodejs(v18)](https://nodejs.org/en/download)
 *   Instalamos el Serverless Framework globalmente si aún no lo hemos hecho. Recomiendo la version tres ya que es gratuita y no nos pide credenciales. Se puede usar la última version (cuatro) sin problemas, aunque es de pago.
 
 ```git
@@ -167,10 +167,12 @@ npm i
 npm start
 ```
 
-*   Si se presenta algún mensaje indicando qué el puerto 4000 ya está en uso, podemos terminar todos los procesos dependientes y volver a ejecutar la app
-
+* Si se presenta algún mensaje indicando qué el puerto 9324 ya está en uso, podemos terminar todos los procesos dependientes.
 ```git
-npx kill-port 4000
+npx kill-port 9324
+```
+* Ejecutamos la app desde terminal.
+```git
 npm start
 ```
 
@@ -190,11 +192,11 @@ npm start
 cd 'projectName'
 ```
 
-*   Instalamos la última versión LTS de [Nodejs(v18)](https://nodejs.org/en/download)
-*   Instalamos Serverless Framework de forma global si es que aún no lo hemos realizado
+*   Instalamos la versión LTS de [Nodejs(v18)](https://nodejs.org/en/download)
+*   Instalamos el Serverless Framework globalmente si aún no lo hemos hecho. Recomiendo la version tres ya que es gratuita y no nos pide credenciales. Se puede usar la última version (cuatro) sin problemas, aunque es de pago.
 
 ```git
-npm install -g serverless
+npm install -g serverless@3
 ```
 
 *   Verificamos la versión de Serverless instalada
@@ -256,10 +258,12 @@ npm i serverless-offline-ssm --save-dev
 npm start
 ```
 
-*   Si se presenta algún mensaje indicando qué el puerto 4000 ya está en uso, podemos terminar todos los procesos dependientes y volver a ejecutar la app
-
+* Si se presenta algún mensaje indicando qué el puerto 9324 ya está en uso, podemos terminar todos los procesos dependientes.
 ```git
-npx kill-port 4000
+npx kill-port 9324
+```
+* Ejecutamos la app desde terminal.
+```git
 npm start
 ```
 
