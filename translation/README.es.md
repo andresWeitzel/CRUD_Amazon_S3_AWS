@@ -37,7 +37,7 @@
 
 <div align="center">
 
-# CRUD Bucket S3 AWS ![Status](../doc/assets/icons/badges/status-completed.svg)
+# CRUD Bucket S3 AWS ![(status-completed)](../doc/assets/icons/badges/status-completed.svg)
 
 </div>
 
