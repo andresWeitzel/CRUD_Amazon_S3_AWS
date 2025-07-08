@@ -43,6 +43,7 @@
 
 CRUD model for object handling implemented with Systems Manager Parameter Store, S3 Bucket, Api-Gateway, Serverless-Framework, Lambda, NodeJs, aws-sdk-v3, among others others. AWS services are deployed locally. The project code and documentation (except technical docs) have been developed in English.
 
+* [Postman Collection](./src/postman/collection/CRUD_Bucket_S3_AWS.postman_collection.json) 
 * [Functionality test playlist](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)<a href="https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW" target="_blank"> <img src="./doc/assets/social-networks/yt.png" width="25" />
 
 <br>
