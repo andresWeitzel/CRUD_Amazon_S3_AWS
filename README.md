@@ -52,12 +52,16 @@ CRUD model for object handling implemented with Systems Manager Parameter Store,
 
 <!------Start Index----->
 
-## Table of Contents 📜
+## Index 📜
 
 <details>
-<summary> View </summary>
+ <summary> View </summary>
 
-<br>
+<div align="right">
+
+`Latest update: 19/02/26` 
+
+</div>
 
 ### Section 1) Description, Configuration, and Technologies
 

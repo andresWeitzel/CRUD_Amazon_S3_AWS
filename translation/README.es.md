@@ -58,7 +58,11 @@ Modelo CRUD para el manejo de objetos implementado con Systems Manager Parameter
 <details>
  <summary> Ver </summary>
 
- <br>
+<div align="right">
+
+`Última actualización: 19/02/26` 
+
+</div>
 
 ### Sección 1)  Descripción, configuración y tecnologías
 
