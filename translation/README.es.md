@@ -23,10 +23,10 @@
 
 <div align="right">
     <a href="../README.es.md" target="_blank">
-      <img src="../doc/assets/translation/arg-flag.jpg" width="10%" height="10%" />
+      <img src="../doc/assets/translation/arg-flag.jpg" width="65" height="40" />
   </a> 
    <a href="https://github.com/andresWeitzel/CRUD_Amazon_S3_AWS" target="_blank">
-      <img src="../doc/assets/translation/eeuu-flag.jpg" width="10%" height="10%" />
+      <img src="../doc/assets/translation/eeuu-flag.jpg" width="65" height="40" />
   </a> 
 </div>
 
@@ -37,7 +37,7 @@
 
 <div align="center">
 
-# CRUD Bucket S3 AWS ![Status](../doc/assets/icons/badges/status-completed.svg)
+# CRUD Bucket S3 AWS ![(status-completed)](../doc/assets/icons/badges/status-completed.svg)
 
 </div>
 
@@ -45,6 +45,7 @@
 
 Modelo CRUD para el manejo de objetos implementado con Systems Manager Parameter Store, Bucket S3, Api-Gateway, Serverless-Framework, Lambda, NodeJs, aws-sdk-v3, entre otros. Los servicios de aws se implementan en local. El código del proyecto y la documentación de este (menos doc técnica), ha sido desarrollado/a en inglés.
 
+*   [Postman Collection](../src/postman/collection/CRUD_Bucket_S3_AWS.postman_collection.json) 
 *   [Playlist prueba de funcionalidad](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW) <img src="../doc/assets/social-networks/yt.png" width="25" />
 
  <br>
