@@ -57,7 +57,7 @@ Modelo CRUD para el manejo de objetos implementado con Systems Manager Parameter
 ## Índice 📜
 
 <details>
- <summary> Ver </summary>
+ <summary>Ver detalles</summary>
 
 <div align="right">
 
@@ -96,7 +96,7 @@ Modelo CRUD para el manejo de objetos implementado con Systems Manager Parameter
 ### 1.0) Descripción [🔝](#índice-)
 
 <details>
-  <summary>Ver</summary>
+  <summary>Ver detalles</summary>
  <br>
 
 ### 1.0.0) Descripción General
@@ -121,7 +121,7 @@ Modelo CRUD para el manejo de objetos implementado con Systems Manager Parameter
 ### 1.1) Ejecución del Proyecto [🔝](#índice-)
 
 <details>
-  <summary>Ver</summary>
+  <summary>Ver detalles</summary>
   <br>
 
 *   Una vez creado un entorno de trabajo a través de algún ide, clonamos el proyecto
@@ -188,7 +188,7 @@ npm start
 ### 1.2) Configuración del proyecto desde cero [🔝](#índice-)
 
 <details>
-  <summary>Ver</summary>
+  <summary>Ver detalles</summary>
  <br>
 
 *   Creamos un entorno de trabajo a través de algún ide, luego de crear una carpeta nos posicionamos sobre la misma
@@ -279,7 +279,7 @@ npm start
 ### 1.3) Tecnologías [🔝](#índice-)
 
 <details>
-  <summary>Ver</summary>
+  <summary>Ver detalles</summary>
  <br>
 
 | Tecnología | Versión | Finalidad |
@@ -322,7 +322,7 @@ npm start
 ### 2.0) Endpoints y recursos [🔝](#índice-)
 
 <details>
-  <summary>Ver</summary>
+  <summary>Ver detalles</summary>
 <br>
 
 ### 2.1.0) Variables en Postman
@@ -467,7 +467,7 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 ### 3.0) Prueba de funcionalidad [🔝](#índice-)
 
 <details>
-  <summary>Ver</summary>
+  <summary>Ver detalles</summary>
 <br>
 
 #### [Ver video](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
@@ -481,7 +481,7 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 ### 3.1) Referencias [🔝](#índice-)
 
 <details>
-  <summary>Ver</summary>
+  <summary>Ver detalles</summary>
  <br>
 
 #### Configuración buckets

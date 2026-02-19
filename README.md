@@ -55,7 +55,7 @@ CRUD model for object handling implemented with Systems Manager Parameter Store,
 ## Index 📜
 
 <details>
- <summary> View </summary>
+ <summary>View details</summary>
 
 <div align="right">
 
@@ -94,7 +94,7 @@ CRUD model for object handling implemented with Systems Manager Parameter Store,
 ### 1.0) Description [🔝](#index-)
 
 <details>
-<summary>View</summary>
+<summary>View details</summary>
 <br>
 
 ### 1.0.0) General Description
@@ -119,7 +119,7 @@ Next, the controller/view layer (/controllers) is defined by the CRUD operations
 ### 1.1) Project Execution [🔝](#index-)
 
 <details>
-<summary>View</summary>
+<summary>View details</summary>
 <br>
 
 * Once a work environment has been created through an ide, we clone the project
@@ -184,7 +184,7 @@ npm start
 ### 1.2) Setting up the project from scratch [🔝](#índice-)
 
 <details>
-<summary>View</summary>
+<summary>View details</summary>
 <br>
 
 * We create a work environment through an IDE, after creating a folder we position ourselves on it
@@ -274,7 +274,7 @@ npm start
 ### 1.3) Technologies [🔝](#index-)
 
 <details>
-<summary>View</summary>
+<summary>View details</summary>
 <br>
 
 | Technology | Version | Purpose |
@@ -317,7 +317,7 @@ npm start
 ### 2.0) Endpoints and Resources [🔝](#index-)
 
 <details>
-<summary>View</summary>
+<summary>View details</summary>
 <br>
 
 ### 2.1.0) Variables in Postman
@@ -462,7 +462,7 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 ### 3.0) Functionality Testing [🔝](#index-)
 
 <details>
-<summary>View</summary>
+<summary>View details</summary>
 <br>
 
 #### [Watch video](https://www.youtube.com/playlist?list=PLCl11UFjHurDPyOkEXOR6JO-vUnYqd1FW)
@@ -476,7 +476,7 @@ curl --location --request DELETE 'http://localhost:4000/dev/delete-object/104851
 ### 3.1) References [🔝](#index-)
 
 <details>
-<summary>View</summary>
+<summary>View details</summary>
 <br>
 
 #### Bucket Configuration
